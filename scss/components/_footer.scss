@@ -1,0 +1,50 @@
+.c-footer {
+  &__wrapper {
+    display: flex;
+    padding: 100px 5px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: block;
+    // margin-bottom: 30px;
+  }
+
+  &__title {
+    font-size: 1.25em;
+    font-weight: $fw-bold;
+    color: $c-brown-titles;
+    max-width: 280px;
+    margin-bottom: 35px;
+  }
+
+  &__links {
+    margin: 0 10px;
+  }
+
+  &__links-list {
+    &__item {
+      margin-bottom: 15px;
+      line-height: 20px;
+    }
+  }
+
+  &__form {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    max-width: 340px;
+    padding: 0 5px;
+
+    &__input {
+      min-width: 100%;
+      margin-bottom: 15px;
+      border: 1px solid $c-sky-blue;
+      border-radius: 4px;
+      outline: none;
+      color: $c-sky-blue;
+      padding: 10px 15px;
+    }
+  }
+}

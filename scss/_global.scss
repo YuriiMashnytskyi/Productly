@@ -1,0 +1,51 @@
+// File with global styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: "Poppins";
+  font-size: 16px;
+  color: $c-brown-text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: $c-brown-titles;
+  line-height: 1.227em;
+}
+
+h1 {
+  font-size: 2.75em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sizing-block {
+  margin: 0 auto;
+  max-width: 1120px;
+}

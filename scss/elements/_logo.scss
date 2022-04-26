@@ -1,0 +1,22 @@
+.e-logo {
+  user-select: none;
+  display: flex;
+  align-items: center;
+
+  flex-shrink: 0;
+  // max-width: 186px;
+
+  &__img {
+    flex-shrink: 0;
+    display: inline-block;
+    padding-right: 10px;
+    // margin-right: 10px;
+  }
+  &__text {
+    flex-shrink: 0;
+    display: inline-block;
+    & img {
+      margin-top: 10px;
+    }
+  }
+}

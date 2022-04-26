@@ -1,0 +1,21 @@
+// FONTS
+@mixin font-face(
+  $font-name,
+  $font-path,
+  $font-weight: normal,
+  $font-style: normal
+) {
+  @font-face {
+    font-family: $font-name;
+    src: url("../assets/fonts/" + $font-path + ".eot");
+    src: url("../assets/fonts/" + $font-path + ".ttf") format("truetype"),
+      url("../assets/fonts/" + $font-path + ".woff") format("woff"),
+      url("../assets/fonts/" + $font-path + ".woff2") format("woff2");
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+}
+
+// example
+// @include font-face($f-roboto, "Roboto/Roboto-Regular", normal, normal);
+// @include font-face($f-roboto, "Roboto/Roboto-Bold", bold, normal);

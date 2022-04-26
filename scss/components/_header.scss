@@ -1,0 +1,17 @@
+.c-header {
+  max-height: 80px;
+  // background-color: #f5ffff;
+  // margin-bottom: 30px;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px;
+  }
+}

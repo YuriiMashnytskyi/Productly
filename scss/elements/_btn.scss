@@ -1,0 +1,51 @@
+.e-btn {
+  display: inline-block;
+  transition: all 0.55s ease;
+  cursor: pointer;
+  user-select: none;
+  min-width: 100px;
+  // min-height: 50px;
+  padding: 12px 18px;
+  background-color: $c-orange;
+  border: 1px solid $c-white;
+  border-radius: 4px;
+  outline: none;
+  color: $c-white;
+  font-weight: $fw-semibold;
+  text-align: center;
+  line-height: 24px;
+
+  &:hover {
+    background-color: $c-white;
+    color: $c-dark-blue;
+    border: 1px solid $c-light-blue;
+    transform: scale(1.05);
+  }
+
+  &--sign-in {
+    margin: 0 15px;
+  }
+
+  &--sign-up {
+    background-color: $c-white;
+    color: $c-dark-blue;
+    border: 1px solid $c-sky-blue;
+  }
+
+  &--banner {
+    font-weight: $fw-bold;
+    // font-size: 1em;
+    width: 175px;
+    margin-right: 30px;
+  }
+
+  &--tools-sign-up {
+    font-weight: $fw-bold;
+    text-transform: uppercase;
+    width: 175px;
+  }
+
+  &--footer {
+    font-weight: $fw-bold;
+  }
+}
